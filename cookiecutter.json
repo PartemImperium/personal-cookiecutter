@@ -1,6 +1,6 @@
 {
     "projectName" : null,
     "githubUser" : "PartemImperium",
-    "repoName" : "{{ cookiecutter.projectName }}",
+    "repoName" : "{{ cookiecutter.projectName | slugify }}",
     "copyrightHolder" : "{{ cookiecutter.githubUser }}"
 }
