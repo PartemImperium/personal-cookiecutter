@@ -1,4 +1,6 @@
 {
     "projectName" : null,
-    "copyrightHolder" : "PartemImperium"
+    "githubUser" : "PartemImperium",
+    "repoName" : "{{ cookiecutter.projectName }}",
+    "copyrightHolder" : "{{ cookiecutter.githubUser }}"
 }

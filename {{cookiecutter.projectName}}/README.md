@@ -25,7 +25,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="https://github.com/{{ cookiecutter.githubUser }}/{{ cookiecutter.repoName }}">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -34,14 +34,14 @@
   <p align="center">
     An awesome README template to jumpstart your projects!
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/{{ cookiecutter.githubUser }}/{{ cookiecutter.repoName }}"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://github.com/{{ cookiecutter.githubUser }}/{{ cookiecutter.repoName }}">View Demo</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    <a href="https://github.com/{{ cookiecutter.githubUser }}/{{ cookiecutter.repoName }}/issues">Report Bug</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="https://github.com/{{ cookiecutter.githubUser }}/{{ cookiecutter.repoName }}/issues">Request Feature</a>
   </p>
 </div>
 
@@ -71,8 +71,6 @@
   </ol>
 </details>
 
-
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
@@ -92,7 +90,6 @@ Use the `BLANK_README.md` to get started.
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-
 ### Built With
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
@@ -107,8 +104,6 @@ This section should list any major frameworks/libraries used to bootstrap your p
 * [JQuery](https://jquery.com)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -199,14 +194,14 @@ Use this space to list resources you find helpful and would like to give credit 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/{{ cookiecutter.githubUser }}/{{ cookiecutter.repoName }}.svg?style=for-the-badge
+[contributors-url]: https://github.com/{{ cookiecutter.githubUser }}/{{ cookiecutter.repoName }}/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/{{ cookiecutter.githubUser }}/{{ cookiecutter.repoName }}.svg?style=for-the-badge
+[forks-url]: https://github.com/{{ cookiecutter.githubUser }}/{{ cookiecutter.repoName }}/network/members
+[stars-shield]: https://img.shields.io/github/stars/{{ cookiecutter.githubUser }}/{{ cookiecutter.repoName }}.svg?style=for-the-badge
+[stars-url]: https://github.com/{{ cookiecutter.githubUser }}/{{ cookiecutter.repoName }}/stargazers
+[issues-shield]: https://img.shields.io/github/issues/{{ cookiecutter.githubUser }}/{{ cookiecutter.repoName }}.svg?style=for-the-badge
+[issues-url]: https://github.com/{{ cookiecutter.githubUser }}/{{ cookiecutter.repoName }}/issues
+[license-shield]: https://img.shields.io/github/license/{{ cookiecutter.githubUser }}/{{ cookiecutter.repoName }}.svg?style=for-the-badge
+[license-url]: https://github.com/{{ cookiecutter.githubUser }}/{{ cookiecutter.repoName }}/blob/master/LICENSE.txt
 [product-screenshot]: images/screenshot.png
