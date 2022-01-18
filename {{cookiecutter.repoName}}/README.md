@@ -38,7 +38,6 @@
 </div>
 
 
-
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
@@ -68,6 +67,8 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
+TODO: Add actual prject info
+
 There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
 
 Here's why:
@@ -83,6 +84,8 @@ Use the `BLANK_README.md` to get started.
 
 
 ### Built With
+
+TODO: Update actual built with
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
@@ -105,6 +108,8 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+TODO: Add actual prereqs
+
 This is an example of how to list things you need to use the software and how to install them.
 * npm
   ```sh
@@ -113,12 +118,14 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
+TODO: Add actual instalation info
+
 _Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/{{ cookiecutter.githubUser }}/{{ cookiecutter.repoName }}.git
    ```
 3. Install NPM packages
    ```sh
@@ -135,6 +142,7 @@ _Below is an example of how you can instruct your audience on installing and set
 <!-- USAGE EXAMPLES -->
 ## Usage
 
+TODO: Update to actual usage for this app.
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
 _For more examples, please refer to the [Documentation](https://example.com)_
@@ -169,16 +177,12 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
+* TODO: Add more Acknowledgements
+* Readme Template 
+  * Actual Template - https://github.com/othneildrew/Best-README-Template
+  * Tool used to apply the template - https://github.com/cookiecutter/cookiecutter
+    * My cookiecutter template based off the above https://github.com/PartemImperium/personal-cookiecutter
 
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
