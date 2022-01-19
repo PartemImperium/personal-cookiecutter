@@ -2,5 +2,6 @@
     "projectName" : null,
     "githubUser" : "PartemImperium",
     "repoName" : "{{ cookiecutter.projectName | slugify }}",
-    "copyrightHolder" : "{{ cookiecutter.githubUser }}"
+    "copyrightHolder" : "{{ cookiecutter.githubUser }}",
+    "includeBuiltWith" : true
 }
