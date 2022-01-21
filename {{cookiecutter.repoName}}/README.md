@@ -53,8 +53,12 @@
         <li>
             <a href="#getting-started">Getting Started</a>
             <ul>
-                <li><a href="#prerequisites">Prerequisites</a></li>
-                <li><a href="#installation">Installation</a></li>
+                {% if cookiecutter.includePrerequisites == "True" %}
+                    <li><a href="#prerequisites">Prerequisites</a></li>
+                {% endif %}
+                {% if cookiecutter.includeInstallation == "True" %}
+                    <li><a href="#installation">Installation</a></li>
+                {% endif %}
             </ul>
         </li>
         <li><a href="#usage">Usage</a></li>
@@ -109,6 +113,7 @@ This section should list any major frameworks/libraries used to bootstrap your p
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
+{% if cookiecutter.includePrerequisites == "True" %}
 ### Prerequisites
 
 TODO: Add actual prereqs
@@ -118,7 +123,9 @@ This is an example of how to list things you need to use the software and how to
   ```sh
   npm install npm@latest -g
   ```
+{% endif %}
 
+{% if cookiecutter.includeInstallation == "True" %}
 ### Installation
 
 TODO: Add actual instalation info
@@ -140,7 +147,7 @@ _Below is an example of how you can instruct your audience on installing and set
    ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
+{% endif %}
 
 <!-- USAGE EXAMPLES -->
 ## Usage

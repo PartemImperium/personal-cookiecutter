@@ -3,5 +3,7 @@
     "githubUser" : "PartemImperium",
     "repoName" : "{{ cookiecutter.projectName | slugify }}",
     "copyrightHolder" : "{{ cookiecutter.githubUser }}",
-    "includeBuiltWith" : true
+    "includeBuiltWith" : true,
+    "includePrerequisites" : true,
+    "includeInstallation" : true
 }
